@@ -1,0 +1,15 @@
+##wap take a number from keyboard check number is sd dd td od +ve number check """"
+print("enter a number")
+no=int(input())
+if no>0 :
+	if no<10 :
+		print("sd")
+	elif no>10 and no<100:
+		print("dd")
+	elif no>=100 and no<1000:
+		print("td")
+	elif no>0:
+		print("+ve")
+
+
+
